@@ -1,0 +1,99 @@
+
+
+body {
+  color: rgb(50,50,50);
+  font-family: 'Mali', cursive;
+  font-size: 15px;
+  line-height: ;
+  background-color: #EBEBEB;
+  text-align: justify;
+}
+
+h1 {
+  color: #005792;
+  font-family: 'Mali', cursive;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 20px;
+}
+
+h2 {
+  color: #41a7b3;
+  font-family: 'Mali', cursive;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 20px;
+}
+
+h3 {
+  color: #53cde2;
+  font-family: 'Mali', cursive;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 20px;
+}
+
+div {
+  display: block;
+}
+
+.profile_picture {
+  border-radius: 50%;
+  border: 2px rgb(162,162,162) solid;
+
+}
+
+.list_ref {
+  color: rgb(162,162,162);
+  font-family: 'Mali', cursive;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+.list_ref:hover {
+  color: rgb(50,50,50);
+}
+
+.container {
+  width: 100%;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+
+}
+
+.card {
+  width: 40%;
+  margin: 20px auto;
+  border: 1px rgb(162,162,162) solid;
+  border-radius: 4px;
+  padding: 20px ;
+  text-align: center;
+  background-color: white;
+}
+
+.card p {
+  text-align: justify;
+}
+
+.btn {
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #005792;
+}
+
+.btn a {
+  color: white;
+
+}
+
+
+/*.card li {
+  text-align: left;
+}*/
+
+.image {
+  height: 150px;
+  width: 150px;
+  border-radius: 5%;
+}
